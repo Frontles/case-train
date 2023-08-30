@@ -38,7 +38,7 @@ function Frame() {
                     <p className="text-StateGray border-b py-3 flex space-x-2" style={{ fontSize: "16px", fontWeight: "500" }} >
                         <span>20.05.2023</span><span>PR43645</span>
                     </p>
-                    <p className="text-StateGray py-3 flex space-x-2" style={{ fontSize: "16px", fontWeight: "500" }} >
+                    <p className="text-StateGray py-3 flex space-x-2" style={{ fontSize: "16px", fontWeight: "500", }} >
 
                         <span>20.05.2023</span><span>PR43645</span>
                     </p>
