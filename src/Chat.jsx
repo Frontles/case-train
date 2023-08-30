@@ -8,7 +8,7 @@ import OnlineIcon from './assets/online icon.svg'
 
 function Chat() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col w-full">
 
             <div className=' border-l border-r border-BG2  '>
                 {/* Chat Message Header */}
