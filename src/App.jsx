@@ -13,7 +13,7 @@ function App() {
         <LeftSideBar />
 
 
-        <div className=" ml-24 flex flex-row pt-4 ">
+        <div className=" ml-24 mr-10 flex flex-row pt-4 justify-between  ">
           {/* Contacts */}
           <Contacts />
           {/* Chat */}
