@@ -8,7 +8,7 @@ import OnlineIcon from './assets/online icon.svg'
 
 function Chat() {
     return (
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col w-full h-full justify-between ">
 
             <div className=' border-l border-r border-BG2  '>
                 {/* Chat Message Header */}
@@ -25,7 +25,7 @@ function Chat() {
 
                 {/* Chat Message Content */}
 
-                <div className="pt-8 flex flex-col max-h-[78vh] px-4 overflow-y-scroll">
+                <div className="pt-8 flex flex-col flex-auto  px-4 grow">
                     <p style={{ color: "#B0B7C3", fontSize: "12px" }} className=" pb-10 text-center">08:30, Today</p>
                     <div className="flex items-start justify-start mb-11">
                         <img src={Profile2} alt="profil" className="rounded-full object-cover w-[47px] " />
@@ -84,7 +84,7 @@ function Chat() {
 
 
 
-                    <div className="flex  flex-row-reverse items-start justify-start mb-32">
+                    <div className="flex  flex-row-reverse items-start justify-start mb-11">
                         <img src={Profile} alt="profil" className="rounded-full object-cover w-[47px]  " />
                         <div className="flex flex-col px-4 items-end">
                             <p style={{ color: "#28303F", backgroundColor: "#ECFCF9", fontSize: "14px", fontWeight: "500" }} className=" px-3 py-2 rounded-xl max-w-[410px]">Hi I'm working on the final scenes and will show you the result in the next few days.</p>
@@ -97,8 +97,8 @@ function Chat() {
 
 
 
-            {/* Chat Message send */}
-            <div className=' py-4 px-5 w-full relative rounded-2xl mb-4 bg-BG3 flex items-center justify-between '>
+            {/* Chat Message write */}
+            <div className=' py-4 px-5 w-full relative rounded-2xl mb-4 bg-BG3 flex flex-none items-center justify-between '>
                 <img src={Profile} alt="profil" className="rounded-full object-cover w-[41px] " />
                 <input autoComplete='off' name="ara" placeholder='Write your message...' className=' border-none text-StateGray  bg-transparent w-full h-full py-4  focus:outline-none ml-2' />
                 <div className=' p-4 bg-PrimaryNavy flex items-center justify-center rounded-full'>

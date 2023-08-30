@@ -11,6 +11,7 @@ import { ReactComponent as MedicalReports } from "./assets/medical reports.svg"
 import { ReactComponent as WalletCoins } from "./assets/wallet coins.svg"
 import { ReactComponent as User } from "./assets/user.svg"
 import Profile from "./assets/profile.jpeg"
+import { Link } from 'react-router-dom'
 
 function LeftSideBar() {
     return (
@@ -21,7 +22,7 @@ function LeftSideBar() {
                 <div style={{ backgroundColor: "#3CDBC0" }} className=" w-2 h-2 mx-1 rounded-full"></div>
             </div>
             <div className=" mt-20 space-y-[42px]">
-                <HomeIcon className="cursor-pointer" />
+                <Link to="/"><HomeIcon className="cursor-pointer" /></Link>
                 <SmileIcon className="cursor-pointer" />
                 <CalendarTick className="cursor-pointer" />
                 <Calendar className="cursor-pointer" />
@@ -35,6 +36,8 @@ function LeftSideBar() {
 
             </div>
             <div className=" mt-[58px]">
+                <Link to="/table" className='bg-red-500 px-2 py-1 text-white rounded-full text-sm'> table
+                </Link>
                 <img src={Profile} width={"41px"} className="rounded-full mt-[56px]" alt="profile" />
 
             </div>

@@ -1,28 +1,31 @@
 import LeftSideBar from "./LeftSideBar";
 
-import Contacts from "./Contacts";
-import Chat from "./Chat";
-import Frame from "./Frame";
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Table from "./Table";
+import Home from "./Home"
 
 
 function App() {
   return (
     <>
-      <div className=" flex flex-col ">
-        {/* Left Side Bar */}
-        <LeftSideBar />
+      <BrowserRouter>
+        <div className=" flex flex-col ">
+          {/* Left Side Bar */}
+          <LeftSideBar />
+          <Routes>
+            <Route path='/' Component={Home} />
+            <Route path='/table' Component={Table} />
 
 
-        <div className=" ml-24 mr-10 flex flex-row pt-4 justify-between  ">
-          {/* Contacts */}
-          <Contacts />
-          {/* Chat */}
-          <Chat />
-          {/* Frame */}
-          <Frame />
+          </Routes>
+
+
+
         </div>
 
-      </div>
+
+      </BrowserRouter>
 
     </>
   );

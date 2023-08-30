@@ -25,7 +25,8 @@ module.exports = {
       "InputGray": "#78828A",
       "CheckedPeople": "#0028551A",
       "BG3": "#FAFBFC",
-      "PrimaryNavy": "#002855"
+      "PrimaryNavy": "#002855",
+      "BaseGray": "#F5F5F5"
     }
   },
   plugins: [],
