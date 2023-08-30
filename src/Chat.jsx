@@ -8,7 +8,7 @@ import OnlineIcon from './assets/online icon.svg'
 
 function Chat() {
     return (
-        <div className="flex flex-col basis-5/12  ">
+        <div className="flex flex-col basis-2/5  ">
 
             <div className=' border-l border-BG2 '>
                 {/* Chat Message Header */}
@@ -25,12 +25,12 @@ function Chat() {
 
                 {/* Chat Message Content */}
 
-                <div className="pt-8 flex flex-col  ">
+                <div className="pt-8 flex flex-col ">
                     <p style={{ color: "#B0B7C3", fontSize: "12px" }} className=" pb-10 text-center">08:30, Today</p>
                     <div className="flex items-start justify-start mb-11">
                         <img src={Profile2} alt="profil" className="rounded-full object-cover w-[47px] ml-2 " />
                         <div className="flex flex-col px-4">
-                            <p style={{ color: "#28303F", backgroundColor: "#0028551A", fontSize: "14px" }} className=" px-3 py-2 rounded-xl max-w-[410px]">Hi,How are things with our illustration builder?
+                            <p style={{ color: "#28303F", backgroundColor: "#0028551A", fontSize: "14px", fontWeight: "500" }} className=" px-3 py-2 rounded-xl max-w-[410px]">Hi,How are things with our illustration builder?
 
                             </p>
                             <p style={{ color: "#78828A", fontSize: "12px" }}>08::30</p>
@@ -40,7 +40,7 @@ function Chat() {
                     <div className="flex items-start justify-start mb-11">
                         <div className=" ml-12"></div>
                         <div className="flex flex-col px-4">
-                            <p style={{ color: "#28303F", backgroundColor: "#0028551A", fontSize: "14px" }} className=" px-3 py-2 rounded-xl max-w-[410px]">I found out that Lesya has completed her part of the work and is waiting for your review.</p>
+                            <p style={{ color: "#28303F", backgroundColor: "#0028551A", fontSize: "14px", fontWeight: "500" }} className=" px-3 py-2 rounded-xl max-w-[410px]">I found out that Lesya has completed her part of the work and is waiting for your review.</p>
                             <p style={{ color: "#78828A", fontSize: "12px" }}>08:30</p>
                         </div>
                     </div>
@@ -57,11 +57,11 @@ function Chat() {
                         </div>
                     </div>
 
-                    <div className="flex  flex-row-reverse items-start justify-start mb-11">
+                    <div className="flex  flex-row-reverse items-start justify-start mb-32">
                         <img src={Profile} alt="profil" className="rounded-full object-cover w-[47px] ml-2 " />
-                        <div className="flex flex-col px-4">
-                            <p style={{ color: "#28303F", backgroundColor: "#ECFCF9", fontSize: "14px" }} className=" px-3 py-2 rounded-xl max-w-[420px]">Hi I'm working on the final scenes and will show you the result in the next few days.</p>
-                            <p style={{ color: "#78828A", fontSize: "12px" }}>08:33</p>
+                        <div className="flex flex-col px-4 items-end">
+                            <p style={{ color: "#28303F", backgroundColor: "#ECFCF9", fontSize: "14px", fontWeight: "500" }} className=" px-3 py-2 rounded-xl max-w-[410px]">Hi I'm working on the final scenes and will show you the result in the next few days.</p>
+                            <p className="" style={{ color: "#78828A", fontSize: "12px" }}>08:33</p>
                         </div>
                     </div>
 

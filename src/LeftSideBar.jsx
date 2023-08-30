@@ -14,13 +14,13 @@ import Profile from "./assets/profile.jpeg"
 
 function LeftSideBar() {
     return (
-        <div id="leftsidebar" className=" fixed flex flex-col items-center justify-center px-5">
+        <div id="leftsidebar" className="flex fixed flex-col items-center justify-center px-5">
             <div id="logo" className="flex mt-3">
                 <div style={{ backgroundColor: "#FF6739" }} className=" w-2 h-2 mx-1 rounded-full"></div>
                 <div style={{ backgroundColor: "#009ECC" }} className=" w-2 h-2 mx-1 rounded-full"></div>
                 <div style={{ backgroundColor: "#3CDBC0" }} className=" w-2 h-2 mx-1 rounded-full"></div>
             </div>
-            <div className=" mt-20 space-y-[35px]">
+            <div className=" mt-20 space-y-[42px]">
                 <HomeIcon className="cursor-pointer" />
                 <SmileIcon className="cursor-pointer" />
                 <CalendarTick className="cursor-pointer" />
@@ -34,7 +34,7 @@ function LeftSideBar() {
                 <User className="cursor-pointer" />
 
             </div>
-            <div className="">
+            <div className=" mt-[58px]">
                 <img src={Profile} width={"41px"} className="rounded-full mt-[56px]" alt="profile" />
 
             </div>

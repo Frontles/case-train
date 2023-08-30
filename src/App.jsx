@@ -8,12 +8,12 @@ import Frame from "./Frame";
 function App() {
   return (
     <>
-      <div className=" flex  ">
+      <div className=" flex flex-col ">
         {/* Left Side Bar */}
         <LeftSideBar />
 
 
-        <div className=" flex container pt-4 space-x-10 ">
+        <div className=" ml-24 flex flex-row pt-4 ">
           {/* Contacts */}
           <Contacts />
           {/* Chat */}

@@ -6,11 +6,11 @@ import Profile2 from "./assets/Lesya.png";
 
 function Contacts() {
     return (
-        <div className="flex flex-col basis-3/12     ">
+        <div className="flex flex-col basis-1/5 mx-5 ">
 
-            <div className='p-4 h-10 w-full  relative border rounded-2xl mb-4 bg-white flex items-center justify-between '>
+            <div className='p-7 h-10 w-full  relative border rounded-2xl mb-4 bg-white flex text-StateGray items-center justify-between '>
                 <SearchIcon />
-                <input name="ara" autoComplete='off' placeholder='Search from chat' className=' border-none text-StateGray  bg-transparent w-full h-full py-4  focus:outline-none ml-2' />
+                <input name="ara" autoComplete='off' placeholder='Search from chat' className=' border-none   bg-transparent w-full h-full py-4  focus:outline-none ml-2' />
 
 
             </div>
