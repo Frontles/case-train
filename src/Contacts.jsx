@@ -16,7 +16,7 @@ function Contacts() {
             </div>
             <div className=' w-full  bg-white flex flex-col items-center justify-center '>
                 <ContactCard active={true} photo={Profile} name="Bogdan Krivenchenko" message="Hi! How are things with the ill..." date="08:30" />
-                <ContactCard photo={Profile2} name="Lesya Borodina" message="Are you in the office yet ?" date="08:15" />
+                <ContactCard photo={Profile2} name="Lesya Borodina" message="Are you in the office yet?" date="08:15" />
                 <ContactCard photo={Profile2} name="Lesya Borodina" message="Are you in the office yet ?" date="08:15" />
                 <ContactCard photo={Profile2} name="Lesya Borodina" message="Are you in the office yet ?" date="08:15" />
                 <ContactCard photo={Profile2} name="Lesya Borodina" message="Are you in the office yet ?" date="08:15" />
