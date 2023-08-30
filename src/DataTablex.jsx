@@ -33,17 +33,9 @@ function DataTablex() {
 
                 </tr>
             </thead>
-            <Accordion radius="xs" chevronPosition="right" defaultValue="biochemistry">
-                <Accordion.Item value="biochemistry">
-                    <Accordion.Control>Biochemistry</Accordion.Control>
-                    <Accordion.Panel>
-                        <tbody>
-                            {rows}
-                        </tbody>
-                    </Accordion.Panel>
-                </Accordion.Item>
-
-            </Accordion>
+            <tbody>
+                {rows}
+            </tbody>
 
         </Table>
     );
