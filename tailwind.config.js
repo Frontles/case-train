@@ -26,7 +26,10 @@ module.exports = {
       "CheckedPeople": "#0028551A",
       "BG3": "#FAFBFC",
       "PrimaryNavy": "#002855",
-      "BaseGray": "#F5F5F5"
+      "BaseGray": "#F5F5F5",
+      "Gray700": "#666E7D",
+      "StrokeColor": "#E5E7EB",
+
     }
   },
   plugins: [],

@@ -35,10 +35,10 @@ function LeftSideBar() {
                 <User className="cursor-pointer" />
 
             </div>
-            <div className=" mt-[58px]">
+            <div className=" mt-5 ">
                 <Link to="/table" className='bg-red-500 px-2 py-1 text-white rounded-full text-sm'> table
                 </Link>
-                <img src={Profile} width={"41px"} className="rounded-full mt-[56px]" alt="profile" />
+                <img src={Profile} width={"41px"} className="rounded-full mt-4" alt="profile" />
 
             </div>
         </div>
