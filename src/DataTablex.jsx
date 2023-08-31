@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table, Accordion } from '@mantine/core'
+import { Table } from '@mantine/core'
 function DataTablex() {
     const elements = [
         { status: "-", result: 81, brim: 'mg/dl', reference: "70-110", prevResult: "70-110", name: 'Glujoz' },

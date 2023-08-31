@@ -4,7 +4,7 @@ import Frame from "./Frame";
 import Chat from "./Chat";
 function Home() {
     return (
-        <div className=" ml-24 mr-10 flex flex-row pt-4 justify-between  ">
+        <div className=" ml-24 mr-10 flex flex-row  justify-between  ">
             {/* Contacts */}
             <Contacts />
             {/* Chat */}

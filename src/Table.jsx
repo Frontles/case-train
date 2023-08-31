@@ -12,6 +12,7 @@ function Table() {
                 <h1 className=' text-PrimaryNavy font-semibold w-full ' style={{ fontSize: "24px" }}>Labaratory Results</h1>
 
 
+
                 <div className='flex items-center space-x-5'>
                     <p className='flex items-center justify-center'>
                         <img src={Help} alt="" /> Help

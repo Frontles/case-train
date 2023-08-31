@@ -4,7 +4,7 @@ import Profile4 from "./assets/profile_4.png"
 
 function Frame() {
     return (
-        <div className="flex flex-col basis-1/5 w-auto ml-20  " >
+        <div className="flex flex-col basis-1/5 w-auto ml-20 py-4  " >
             <img src={Profile4} className=" pt-6 rounded-2xl object-cover object-center" alt="person" />
             <div className="flex flex-col">
                 <div className="flex flex-col pt-4 w-72 ">

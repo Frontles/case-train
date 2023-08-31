@@ -6,7 +6,7 @@ import Profile2 from "./assets/Lesya.png";
 
 function Contacts() {
     return (
-        <div className="flex flex-col basis-2/6 mx-5 ">
+        <div className="flex flex-col basis-2/6 py-4 mx-5 ">
 
             <div className='p-7 h-10 w-full  relative border rounded-2xl mb-4 bg-white flex text-StateGray items-center justify-between '>
                 <SearchIcon />
