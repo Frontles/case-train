@@ -51,10 +51,10 @@ function Chat() {
 
                     <div className="flex items-start start">
                         <div className=" ml-12"></div>
-                        <div className="flex px-4 flex-col  ">
-                            <p className="space-x-5 rounded-xl flex max-w-[410px]">
-                                <img src={MessageImage1} alt="resim1" className="w-full h-full object-cover rounded-2xl" />
-                                <img src={MessageImage2} alt="resim2" className="w-full h-full object-cover m-auto rounded-2xl" />
+                        <div className="flex px-4 flex-col">
+                            <p className="rounded-xl relative flex flex-wrap space-y-4 lg:space-y-0 lg:space-x-4 lg:flex-nowrap ">
+                                <img src={MessageImage1} alt="resim1" className=" w-full h-full object-cover rounded-2xl" />
+                                <img src={MessageImage2} alt="resim2" className=" w-full h-full object-cover  rounded-2xl" />
                             </p>
 
                             <p style={{ color: "#78828A", fontSize: "12px" }}>08:31</p>

@@ -11,14 +11,14 @@ import { transparent } from 'tailwindcss/colors'
 
 function Table() {
     return (
-        <div className=" ml-24 mr-10 flex flex-col pt-4 items-center justify-between">
+        <div className=" md:ml-24 md:mr-10 flex flex-col pt-4 px-4  items-center lg:justify-between">
             {/* header */}
-            <div className='w-full flex '>
+            <div className='w-full flex  '>
                 <h1 className=' text-PrimaryNavy font-semibold w-full ' style={{ fontSize: "24px" }}>Labaratory Results</h1>
 
 
 
-                <div className='flex items-center space-x-5'>
+                <div className='flex w-full  items-center justify-end  sm :space-x-5 '>
                     <p className='flex items-center justify-center'>
                         <img src={Help} alt="" /> Help
                     </p>
@@ -30,19 +30,8 @@ function Table() {
                 </div>
 
             </div>
-            {/*
-            
-            <div className='flex flex-col  w-3/4 border px-6 py-9 border-StrokeColor rounded-xl justify-between'>
-                <p className='text-InputGray font-semibold font-sm flex justify-between w-full'>
-                    <span>Name Surname</span> <span>Age</span> <span>Protocol No:</span>  <span>ICD-10 Code</span> <span>Diagnoses</span> <span>Date</span>
-                </p>
-                <p className='text-PrimaryNavy font-semibold  flex justify-between w-full'>
-                    <span>Atabay Kuliyev</span> <span>22</span> <span>IL7543677S</span>  <span>A000.1</span> <span>Kolera, Vibrio cholerae 01, biovar eltor’a bağlı</span> <span>20.05.2023</span>
-                </p>
 
-            </div>
-            */}
-            <DataTable className='!border !border-StrokeColor rounded-xl p-4 w-full my-5 '
+            <DataTable className='!border !border-StrokeColor rounded-xl p-4 w-full  lg:h-full my-5 '
                 borderColor={transparent}
 
                 rowClassName={"!text-PrimaryNavy   "}
@@ -53,6 +42,7 @@ function Table() {
                     {
                         accessor: 'name',
                         title: 'Name Surname ',
+                        width: "auto"
 
 
                     },
@@ -67,6 +57,7 @@ function Table() {
                     },
                     {
                         accessor: 'Diagnosis', title: 'Diagnoses', textAlignment: 'start',
+                        width: 350
                     },
                     {
                         accessor: 'Date', title: 'Date', textAlignment: 'start',
